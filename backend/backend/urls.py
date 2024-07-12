@@ -30,5 +30,6 @@ urlpatterns += [
     path('test/', views.send_test_data),
     path('url_app/', include('url_app.urls')),
     path('session_app/', include('session_app.urls')),
+    path('redis_app/', include('redis_app.urls')),
     
 ]
