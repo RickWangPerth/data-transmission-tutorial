@@ -159,7 +159,6 @@ CACHES = {
         }
     }
 }
-print(os.getenv('REDIS_PASSWORD'))
 
 # SESSION
 SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
